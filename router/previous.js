@@ -3,9 +3,9 @@ const previousRouter  = Router()
 
 import * as controller from '../appController/previousCont.js'
 
-previousRouter.route('/addPrevious').post(controller.addPrevious)
+previousRouter.route('/addPrevious').put(controller.addPrevious)
 previousRouter.route('/getPrevious').get(controller.getPrevious)
-previousRouter.route('/getPreviousDay').get(controller.getPreviousDay)
+previousRouter.route('/getPreviousDay').get(controller.getPreviousDay) 
 
 
 export { previousRouter } 
