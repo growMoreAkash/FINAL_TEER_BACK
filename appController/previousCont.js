@@ -82,5 +82,3 @@ export const getPrevious = async (req, res) => {
         return res.status(404).send("Error " + error)
     }
 }
-
-
